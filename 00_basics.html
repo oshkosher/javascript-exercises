@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    function add7(x) {
+        return x+7;
+    }
+
+    function multiply(a, b) {
+        return a*b;
+    }
+
+    function capitalize(s) {
+        return s.slice(0,1).toUpperCase() + s.slice(1).toLowerCase();
+    }
+
+    function lastLetter(s) {
+        if (s.length == 0) return '';
+        var letter;
+        for (const c of s) {
+            if (('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z')) {
+                letter = c;
+            }
+        }
+        return letter;
+    }
+    
+  </script>
+
+</body>
+</html>

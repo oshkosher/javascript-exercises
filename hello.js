@@ -1,0 +1,20 @@
+s = "*";
+console.log(s);
+s += "*";
+console.log(s);
+s += "*";
+console.log(s);
+s += "*";
+console.log(s);
+s += "*";
+console.log(s);
+
+a = 42;
+a += 'z';
+console.log(a);
+b = 'z';
+b += 42;
+console.log(b);
+c = Number('19');
+c += 42;
+console.log(c);
